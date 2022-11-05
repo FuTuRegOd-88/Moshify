@@ -36,7 +36,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
-  height: 1.1;
+  height: 1.1rem;
 }
 
 h1 {
@@ -90,7 +90,7 @@ a {
 .link-arrow::after {
   content: "-->";
   margin-left: 5px;
-  transition: margin 0.15sec;
+  transition: margin 0.15s;
 }
 
 .link-arrow:hover::after {
@@ -558,7 +558,7 @@ a {
   text-align: center;
 }
 
-@media screen and (mi-width: 768px) {
+@media screen and (min-width: 768px) {
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
